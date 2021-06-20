@@ -29,9 +29,21 @@ button {
   right: 25%;
 }
 
+
+
+
 .i-phone:hover {
   transform: rotate(-20deg);
 }
+
+@media (max-width: 1000px ) {
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 2rem;
+    text-align: center;
+    /*  */
+  }
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
